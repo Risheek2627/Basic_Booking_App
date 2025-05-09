@@ -1,4 +1,4 @@
-const { allActivities } = require("../controllers/activityControllers");
+const allActivities = require("../controllers/activityControllers");
 const express = require("express");
 const routes = express.Router();
 
