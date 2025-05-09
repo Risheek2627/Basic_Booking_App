@@ -18,4 +18,4 @@ const allActivities = async (req, res) => {
   } catch (error) {}
 };
 
-module.exports = { allActivities };
+module.exports = allActivities;
