@@ -5,7 +5,7 @@ const dotenv = require("dotenv");
 dotenv.config();
 
 // to book an activity
-const bookingActivity = async (req, res) => {
+const bookActivity = async (req, res) => {
   try {
     const { activityId } = req.body;
 
@@ -46,4 +46,4 @@ const getMyBookings = async (req, res) => {
   }
 };
 
-module.exports = { bookingActivity, getMyBookings };
+module.exports = { bookActivity, getMyBookings };
