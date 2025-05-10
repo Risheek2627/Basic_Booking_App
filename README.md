@@ -47,7 +47,7 @@ An API service that provides functionality for user registration, authentication
 1. Clone the repository
 
    ```bash
-   git clone [https://github.com/yourusername/activity-booking-api.git](https://github.com/Risheek2627/Basic_Booking_App.git)
+   git clone https://github.com/Risheek2627/Basic_Booking_App.git
    ```
 
 2. Install dependencies
