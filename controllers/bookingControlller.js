@@ -18,7 +18,7 @@ const bookActivity = async (req, res) => {
     }
 
     const existingBooking = await Booking.findOne({
-      user: req.userId,
+      user: req.user.id,
       activity: activityId,
     });
     if (existingBooking) {

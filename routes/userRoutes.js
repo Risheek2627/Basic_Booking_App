@@ -1,7 +1,7 @@
 const { register, login } = require("../controllers/userController");
 const express = require("express");
 const routes = express.Router();
-const { handleValidationError } = require("../validation/handelingValidation");
+const handleValidationError = require("../validation/handelingValidation");
 const {
   registerValidation,
   loginValidation,
