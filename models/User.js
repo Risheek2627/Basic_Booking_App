@@ -11,6 +11,10 @@ const userModel = new mongoose.Schema({
   },
   phoneNumber: String,
   password: String,
+  isAdmin: {
+    type: Boolean,
+    default: false, // Default to regular user
+  },
 });
 
 module.exports = mongoose.model("User", userModel);

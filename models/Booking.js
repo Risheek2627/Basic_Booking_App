@@ -3,10 +3,10 @@ const Activity = require("./Activity");
 const User = require("./User");
 
 const bookingModel = new mongoose.Schema({
-  userId: { type: mongoose.Schema.Types.ObjectId, ref: User, required: true },
-  activityId: {
+  user: { type: mongoose.Schema.Types.ObjectId, ref: "User", required: true },
+  activity: {
     type: mongoose.Schema.Types.ObjectId,
-    ref: Activity,
+    ref: "Activity",
     required: true,
   },
 });
