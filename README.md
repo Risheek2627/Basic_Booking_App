@@ -16,8 +16,6 @@ An API service that provides functionality for user registration, authentication
 - [Error Handling](#error-handling)
 - [Validation](#validation)
 - [Testing](#testing)
-- [License](#license)
-- [Contributing](#contributing)
 
 ## Features
 
@@ -61,12 +59,6 @@ An API service that provides functionality for user registration, authentication
    ```bash
    npm start
    ```
-
-For development with auto-restart:
-
-```bash
-npm run dev
-```
 
 ## Environment Setup
 
