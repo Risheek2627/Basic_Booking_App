@@ -67,7 +67,6 @@ Create a `.env` file in the root directory with the following variables:
 MONGODB_URI=your_mongodb_connection_string
 JWT_SECRET_KEY=your_jwt_secret_key
 PORT=5000
-NODE_ENV=development
 ```
 
 ## Dependencies
