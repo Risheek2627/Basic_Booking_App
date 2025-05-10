@@ -13,7 +13,6 @@ An API service that provides functionality for user registration, authentication
 - [Dependencies](#dependencies)
 - [Data Models](#data-models)
 - [Authentication](#authentication)
-- [Error Handling](#error-handling)
 - [Validation](#validation)
 - [Testing](#testing)
 
@@ -113,25 +112,7 @@ Authorization: Bearer <your_token>
 
 Token validity period: 24 hours
 
-## Error Handling
 
-The API returns appropriate HTTP status codes:
-
-- **200**: Success
-- **400**: Bad request (invalid input)
-- **401**: Unauthorized (authentication required)
-- **403**: Forbidden (insufficient permissions)
-- **404**: Not found
-- **500**: Internal server error
-
-Error responses follow this format:
-
-```json
-{
-  "success": false,
-  "message": "Error description"
-}
-```
 
 ## Validation
 
