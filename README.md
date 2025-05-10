@@ -1,5 +1,10 @@
 # Activity Booking System API
 
+## API Deployment URL
+The API is deployed on Render and can be accessed at:
+[https://basic-booking-app-4esv.onrender.com](https://basic-booking-app-4esv.onrender.com)
+
+
 ## Overview
 
 An API service that provides functionality for user registration, authentication, activity management, and booking management. Built with Node.js, Express, and MongoDB.
@@ -42,8 +47,7 @@ An API service that provides functionality for user registration, authentication
 1. Clone the repository
 
    ```bash
-   git clone https://github.com/yourusername/activity-booking-api.git
-   cd activity-booking-api
+   git clone [https://github.com/yourusername/activity-booking-api.git](https://github.com/Risheek2627/Basic_Booking_App.git)
    ```
 
 2. Install dependencies
